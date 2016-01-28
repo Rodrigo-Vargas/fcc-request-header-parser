@@ -14,7 +14,7 @@
     "Node",
     "request",
     "header",
-    "parser",
+    "parser"
   ],
   "author": "Rodrigo Vargas",
   "license": "MIT",
