@@ -1,0 +1,25 @@
+{
+  "name": "rvg-request-header-parser",
+  "version": "1.0.0",
+  "description": "A request header parser for the fcc course.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Vargas/fcc-request-header-parser"
+  },
+  "homepage": "http://rodrigovg.com.br",
+  "bugs": "https://github.com/Rodrigo-Vargas/fcc-request-header-parser/issues",
+  "keywords": [
+    "Express",
+    "Node",
+    "request",
+    "header",
+    "parser",
+  ],
+  "author": "Rodrigo Vargas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "ua-parser-js": "^0.7.10"
+  }
+}

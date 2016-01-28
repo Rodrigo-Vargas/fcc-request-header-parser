@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>Request Header Parse Microservice.</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link href="/public/css/main.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="page-header">
+            <h1>Request Header Parser Microservice</h1>
+         </div>
+
+         <blockquote>
+            <h2>User stories:</h2>
+            <ul>
+               <li>User Story: I can get the IP address, language and operating system for my browser.</li>
+            </ul>
+         </blockquote>
+
+         <div>
+           <h2>Example Usage:</h2>
+            <div><code>http://rvg-timestamp.herokuapp.com/December%2015,%202015</code></div>
+            <div><code>http://rvg-timestamp.herokuapp.com/1450137600</code></div>
+         </div>
+
+         <div>
+            <h2>Example Output</h2>
+            <code>{"ip_address":"127.0.0.1","operating_system":"Linux x86_64","language":"pt-BR"}</code>
+         </div>
+      </div>
+   </body>
+</html>
